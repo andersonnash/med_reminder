@@ -8,6 +8,8 @@
             <%= render "devise/shared/error_messages", resource: resource %>
 
             <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+            <%= f.text_field :first_name, autofocus: true, autocomplete: "first_name" %>
+            <%= f.text_field :last_name, autofocus: true, autocomplete: "last_name" %>
             <%= f.password_field :password,
                   autocomplete: "new-password",
                   help: "(#{@minimum_password_length} characters minimum)" %>
