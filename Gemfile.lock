@@ -258,7 +258,7 @@ DEPENDENCIES
   capybara
   cssbundling-rails
   debug
-  devise
+  devise (~> 4.9, >= 4.9.3)
   devise-bootstrap-form
   jbuilder
   jsbundling-rails
